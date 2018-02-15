@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Text Scanner</string>
+    <string name="upload_an_image">Upload an image</string>
+    <string name="camera">camera</string>
+    <string name="error_prompt">Detector dependencies are not yet available</string>
+</resources>
