@@ -1,4 +1,4 @@
-# Pic Mean (OCR) 
+# Pic Def (OCR) 
 OCR Android App using Goolge Vision and Oxford APIs
 
 ## Features
