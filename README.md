@@ -8,10 +8,10 @@ OCR Android App using Goolge Vision and Oxford APIs
 - Find Definition
 
 ## Screenshots
-<img src="https://user-images.githubusercontent.com/12589545/38073015-c248042e-3346-11e8-9660-0b19256d1861.jpeg"/>
-<img src="https://user-images.githubusercontent.com/12589545/38073014-c216e718-3346-11e8-855d-f8fcbc39548f.jpeg"/>
-<img src="https://user-images.githubusercontent.com/12589545/38073013-c1e6fee0-3346-11e8-8632-90bd858b7a7b.jpeg"/>
-<img src="https://user-images.githubusercontent.com/12589545/38073012-c1b5f2c8-3346-11e8-96d8-ac71f1113ac5.jpeg"/>
+<img src="https://user-images.githubusercontent.com/12589545/38074033-027c4fa6-334b-11e8-9991-b913c3507fbd.jpeg"/>
+<img src="https://user-images.githubusercontent.com/12589545/38074036-033d3798-334b-11e8-8196-eb3614e53098.jpeg"/>
+<img src="https://user-images.githubusercontent.com/12589545/38074035-030900ae-334b-11e8-808b-2b82f9e231c7.jpeg"/>
+<img src="https://user-images.githubusercontent.com/12589545/38074034-02cf5a98-334b-11e8-9de2-e34af115ca75.jpeg"/>
 
 ## Libraries
 - [android-image-cropper](https://github.com/ArthurHub/Android-Image-Cropper): for image cropping.
