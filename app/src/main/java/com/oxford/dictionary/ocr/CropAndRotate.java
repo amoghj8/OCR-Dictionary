@@ -1,4 +1,4 @@
-package dictionary;
+package com.oxford.dictionary.ocr;
 
 import android.content.Intent;
 import android.graphics.Bitmap;
@@ -12,8 +12,8 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
-
 import com.theartofdev.edmodo.cropper.CropImageView;
+
 
 
 public class CropAndRotate extends AppCompatActivity implements View.OnClickListener, Toolbar.OnMenuItemClickListener{

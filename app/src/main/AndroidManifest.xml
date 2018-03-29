@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="dictionary">
+    package="com.oxford.dictionary.ocr">
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
@@ -15,16 +15,17 @@
         android:label="Pic Def"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="dictionary.MainActivity">
+        <activity android:name="com.oxford.dictionary.ocr.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="dictionary.CropAndRotate" android:label="Crop"/>
-        <activity android:name="dictionary.Detector" android:label="Detect Text"/>
-        <activity android:name="dictionary.DefinitionActivity" android:label="Definition"/>
+        <activity android:name="com.oxford.dictionary.ocr.CropAndRotate" android:label="Crop"/>
+        <activity android:name="com.oxford.dictionary.ocr.Detector" android:label="Detect Text"/>
+        <activity android:name="com.oxford.dictionary.ocr.LemmatronActivity" android:label="Lemmatron"/>
+        <activity android:name="com.oxford.dictionary.ocr.DefinitionActivity" android:label="Definition"/>
     </application>
 
 

@@ -1,4 +1,4 @@
-package dictionary;
+package com.oxford.dictionary.ocr;
 
 
 import android.app.ProgressDialog;
@@ -12,7 +12,7 @@ import android.util.Log;
 import android.widget.ListAdapter;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
-
+import android.widget.Toast;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -26,6 +26,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 
 import javax.net.ssl.HttpsURLConnection;
+
 
 
 public class DefinitionActivity extends AppCompatActivity  {
@@ -67,7 +68,7 @@ public class DefinitionActivity extends AppCompatActivity  {
             super.onPreExecute();
             // Showing progress dialog
             pDialog = new ProgressDialog(DefinitionActivity.this);
-            pDialog.setMessage("Please wait...");
+            pDialog.setMessage("Please wait");
             pDialog.setCancelable(false);
             pDialog.show();
 
@@ -99,6 +100,8 @@ public class DefinitionActivity extends AppCompatActivity  {
 
                 if (status != HttpURLConnection.HTTP_OK) {
                     Log.w("Connection", "Error ");
+                    Toast.makeText(DefinitionActivity.this, "Error, check the word entered", Toast.LENGTH_LONG).show();
+                    return null;
                 } else {
                     JSONObject jsonObject = null;
                     try {

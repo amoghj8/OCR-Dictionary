@@ -1,4 +1,4 @@
-package dictionary;
+package com.oxford.dictionary.ocr;
 
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -113,18 +113,18 @@ public class Detector extends AppCompatActivity implements View.OnClickListener 
         }
         else if((TextUtils.isEmpty(textText)) && (!(TextUtils.isEmpty(etText)))) {
             etButton.setError("Oops! Got It");
-            Intent intent = new Intent(Detector.this, DefinitionActivity.class);
+            Intent intent = new Intent(Detector.this, LemmatronActivity.class);
             intent.putExtra("Term",etText);
             startActivity(intent);
         }
         else if (!((TextUtils.isEmpty(textText))) && (!(TextUtils.isEmpty(etText)))) {
             etButton.setError("Oops! Got It");
-            Intent intent = new Intent(Detector.this, DefinitionActivity.class);
+            Intent intent = new Intent(Detector.this, LemmatronActivity.class);
             intent.putExtra("Term",etText);
             startActivity(intent);
         }
         else{
-            Intent intent = new Intent(Detector.this, DefinitionActivity.class);
+            Intent intent = new Intent(Detector.this, LemmatronActivity.class);
             intent.putExtra("Term",textText);
             startActivity(intent);
         }
