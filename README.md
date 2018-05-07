@@ -1,5 +1,6 @@
 # Pic Def (OCR) 
 OCR Android App using Goolge Vision and Oxford APIs
+<a href='https://play.google.com/store/apps/details?id=com.oxford.dictionary.ocr.two'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/badge_new.png'/></a>
 
 ## Features
 - Crop
